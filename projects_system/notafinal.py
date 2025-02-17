@@ -1,22 +1,23 @@
-#Calcular nota final del estudiante 
-nombre = input("Introduce el nombre del estudiante: ")
-#El sistema pide la nota del estudiante
-nota1 = float(input("Introduce la nota 1: "))
-nota2 = float(input("Introduce la nota 2: "))
-nota3 = float(input("Introduce la nota 3: "))
+# Calculate student's final grade
+name = input("Enter student's name: ")
 
-#Calcular la nora final 
-notafinal = (nota1 + nota2 + nota3)/3
+# The system asks for the student's grades
+grade1 = float(input("Enter grade 1: "))
+grade2 = float(input("Enter grade 2: "))
+grade3 = float(input("Enter grade 3: "))
 
-#Mostrar nombre de estudiante en mayuscula 
-nombreMayuscula = nombre.upper()
-#Mostrar nombre de estudiante en minuscula 
-nombreMinuscula = nombre.lower()
+# Calculate the final grade
+final_grade = (grade1 + grade2 + grade3) / 3
 
-#Imprimimos el resultado 
-print("Introduce la nota 1: ", nota1)
-print("Introduce la nota 2: ", nota2)
-print("Introduce la nota 3: ", nota3)
-print("Nota final: ", notafinal)
-print("Nombre en Mayuscula: ", nombreMinuscula)
-print(nombreMayuscula)
+# Display student's name in uppercase
+uppercase_name = name.upper()
+# Display student's name in lowercase
+lowercase_name = name.lower()
+
+# Print the results
+print("Grade 1: ", grade1)
+print("Grade 2: ", grade2)
+print("Grade 3: ", grade3)
+print("Final grade: ", final_grade)
+print("Name in Uppercase: ", uppercase_name)
+print("Name in Lowercase: ", lowercase_name)
