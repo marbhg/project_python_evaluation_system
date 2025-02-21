@@ -34,10 +34,10 @@ def determine_litter_grade(finalgrade):
     else:
         print("Grade: EXCELLENT")
 
-    def calculate_multiples_students():
+def calculate_multiples_students():
     num_students = 5 
 
-    for i in range(num_students):
+for i in range(num_students):
 
     student_name(i)
     final_grade = calculate_final_grade():
