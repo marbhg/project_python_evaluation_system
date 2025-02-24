@@ -23,7 +23,7 @@ def student_name(i):
       print(f"Name: {name.upper()}")          
     
 
-def determine_litter_grade(finalgrade):
+def determine_letter_grade(final_grade):
     # Conditions to display the grade
     if final_grade < 5:
         print("Grade: FAIL")
@@ -35,14 +35,13 @@ def determine_litter_grade(finalgrade):
         print("Grade: EXCELLENT")
 
 def calculate_multiples_students():
-    num_students = 5 
+    num_students = 5
 
-for i in range(num_students):
+    for i in range(num_students):
+        student_name(i)
+        final_grade = calculate_grade()  
+        print(f"Nota Final: {final_grade:.2f}")
+        determine_letter_grade(final_grade)
 
-    student_name(i)
-    final_grade = calculate_final_grade():
-    print(f"Final Grade: {final_grade:.2f}")  
-    letter_grade = determine_letter_grade(final_grade)
-    print(f"Letter Grade: {letter_grade}")
 
    
